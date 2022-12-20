@@ -1,8 +1,18 @@
-
 /*
- gcc -o victron-smartshunt victron-smartshunt.c -l gattlib
- F3:E5:DF:E5:A3:25 SmartShunt pin 6 digits
- dep: https://github.com/labapart/gattlib.git
+victron-smartshunt.c
+  see:
+  https://community.victronenergy.com/questions/93919/victron-bluetooth-ble-protocol-publication.html
+  
+  First you have to enable the "third party implementation"-protocol in the victron app under Produkt-Info:
+  activate "Bluetooth GATT service"
+
+  New values:
+      '65970383-4bda-4c1e-af4b-551c4cf74769'
+      '65970382-4bda-4c1e-af4b-551c4cf74769'
+      '6597edec-4bda-4c1e-af4b-551c4cf74769'
+      
+ deps: https://github.com/labapart/gattlib.git
+
 
 MIT License
 
@@ -25,7 +35,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 */
 
 
