@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -lgatt
+CFLAGS= -lgattlib
 all: victron-smartshunt
 
 victron-smartshunt: victron-smartshunt.c
