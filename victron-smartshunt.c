@@ -47,18 +47,6 @@ SOFTWARE.
 
 volatile bool g_operation_completed;
 
-
-/*
-  see also:
-  https://community.victronenergy.com/questions/93919/victron-bluetooth-ble-protocol-publication.html
-  https://github.com/birdie1/victron/blob/master/lib/victron_ble/victron_smartshunt_ble.py
-
-    # New unknown values:
-    #    '65970383-4bda-4c1e-af4b-551c4cf74769'
-    #    '65970382-4bda-4c1e-af4b-551c4cf74769'
-    #    '6597edec-4bda-4c1e-af4b-551c4cf74769'
-*/
-
 const char* uuid_str_SOC = "65970fff-4bda-4c1e-af4b-551c4cf74769";
 const char* uuid_str_Vbank = "6597ed8d-4bda-4c1e-af4b-551c4cf74769";
 const char* uuid_str_Deviation = "65970383-4bda-4c1e-af4b-551c4cf74769";
